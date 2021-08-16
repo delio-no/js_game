@@ -1,0 +1,240 @@
+body
+{
+    padding: 5px;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+
+.WhoInRoom
+{
+    text-align:left;
+    background:#eee;
+    width: 80%;
+    height: 45%;
+    border-radius: 10px;
+
+}
+
+.Players{
+    text-align:left;
+    background:#eee;
+    margin-left: 10px;
+    width: 95%;
+    height: 50%;
+    overflow:auto;
+}
+
+.Chat{
+    text-align:left;
+    border: 1px solid #fff;
+    background:#eee;
+    width: 80%;
+    height: 45%;
+    border-radius: 10px;
+
+
+}
+
+#chat
+{
+    padding:0px;
+    height: 60%;
+}
+
+
+
+#letters
+{
+    text-align:left;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 80%;
+    overflow-x:hidden;
+    overflow-y:auto;
+
+
+}
+
+#game
+{
+
+    text-align: left;
+    background: #eee;
+    height: 90%;
+    width: 90%;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.screen
+{
+    background-color:#aaa;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#logs {
+    background-color:#aaa;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+#command
+{
+
+    min-width: 50vw;
+
+}
+
+#cmndbtn {
+    margin-top: 10px;
+}
+#statBar
+{
+    background-color:#aaa;
+    height: 30px;
+    border-radius: 10px;
+}
+#actions
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#input {
+    min-width: 80%;
+    margin: 10px;
+
+}
+
+#gamePage {
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    height: 100%;
+}
+
+#room {
+    margin-top: 1px;
+    max-height: 300px;
+    width: 100%
+}
+
+#gameHeader {
+    margin: 0px;
+}
+
+
+
+#statBar {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+
+#actions {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 15%;
+}
+
+.action-buttons {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    margin-right: auto;
+    margin-left: auto;
+
+
+
+}
+
+#info {
+    width: auto;
+    max-width: 300px;
+    min-width: 300px;
+    position: absolute;
+    height: 65vh;
+    right: 10px;
+}
+
+.radThings {
+    border-radius: 10px;
+}
+
+.firstFlex {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.firstFlexBlocks {
+
+}
+
+.secondFlex {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thirdFlex {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.fourthFlex {
+    display:flex;
+    height: 65%;
+}
+
+.fifthFlex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inputClass {
+    padding: 5px;
+}
+
+.gameWindow {
+    height: 100%;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.thief {
+    background-image: url(../images/reshetka.jpg);
+}
+.cop {
+    background-image: url(../images/police.jpg);
+}
+.human {
+    background-image: url(../images/brick.jpg);
+}
